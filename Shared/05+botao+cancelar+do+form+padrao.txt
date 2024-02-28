@@ -1,0 +1,7 @@
+procedure TFrm_padrao.bt_CancelarClick(Sender: TObject);
+begin
+// cancela a ação
+ Tratabotoes;
+ Q_padrao.Cancel;
+ Messagedlg('Ação cancelada pelo usuário!',mtInformation,[mbOk],0);
+end;

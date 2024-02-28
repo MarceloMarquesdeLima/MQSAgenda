@@ -1,0 +1,14 @@
+procedure TFrm_padrao.bt_DeletarClick(Sender: TObject);
+begin
+//deleta o registro
+Tratabotoes;
+ if messagedlg('Deseja deletar este registro?',mtConfirmation,[mbOk,mbNo],0)=mrOk then
+    begin
+      Q_padrao.Delete;
+      Messagedlg('Registro deletado com sucesso!',mtInformation,[mbOk],0);
+      Tratabotoes;
+    end
+    else
+    Tratabotoes;
+    abort;
+end;

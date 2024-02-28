@@ -1,0 +1,33 @@
+object frmDados: TfrmDados
+  OldCreateOrder = False
+  OnCreate = DataModuleCreate
+  OnDestroy = DataModuleDestroy
+  Height = 243
+  Width = 480
+  object FDConnection: TFDConnection
+    Params.Strings = (
+      'User_Name=root'
+      'Password=Mar15ma02li82'
+      'Server=localhost'
+      'Database=MQSAgenda'
+      'DriverID=MySQL')
+    LoginPrompt = False
+    Left = 40
+    Top = 32
+  end
+  object FBDriver: TFDPhysFBDriverLink
+    VendorLib = 'C:\Program Files (x86)\Firebird\Firebird_3_0\fbclient.dll'
+    Left = 136
+    Top = 32
+  end
+  object FDGUIxWaitCursor: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 248
+    Top = 32
+  end
+  object MySQLDriver: TFDPhysMySQLDriverLink
+    VendorLib = 'C:\MQSAgenda\EXE\libmysql.dll'
+    Left = 144
+    Top = 96
+  end
+end

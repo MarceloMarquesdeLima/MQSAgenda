@@ -1,0 +1,11 @@
+procedure TFrm_padrao.bt_GravarClick(Sender: TObject);
+begin
+//salava o registro
+try
+ Q_padrao.Post;
+ Messagedlg('Registro salvo com sucesso!',mtInformation,[mbOk],0);
+  Tratabotoes;
+ except
+ ShowMessage('Erro nas gravação dos dados,verifique!');
+end;
+end;

@@ -1,0 +1,17 @@
+inherited frmPadrao1: TfrmPadrao1
+  Caption = ''
+  PixelsPerInch = 96
+  TextHeight = 21
+  inherited pnlFundo: TPanel
+    inherited lblTitulo: TLabel
+      Width = 184
+      Caption = 'CADASTRO DE USU'#193'RIO'
+      ExplicitWidth = 184
+    end
+    inherited pnlPesquisa: TPanel
+      inherited edtPesquisar: TMQSEdit
+        Text = 'Pesquisar de Usu'#225'rio'
+      end
+    end
+  end
+end

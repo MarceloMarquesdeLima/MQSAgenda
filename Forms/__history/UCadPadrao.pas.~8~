@@ -1,0 +1,43 @@
+unit UCadPadrao;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.ExtCtrls, Vcl.StdCtrls,
+  MQSEdit;
+
+type
+  TfrmPadrao = class(TForm)
+    pnlFundo: TPanel;
+    shPadrao: TShape;
+    lblTitulo: TLabel;
+    pnlButton: TPanel;
+    btnMinimaze: TSpeedButton;
+    btnClose: TSpeedButton;
+    pnlPesquisa: TPanel;
+    Shape2: TShape;
+    SpeedButton1: TSpeedButton;
+    MQSEdit1: TMQSEdit;
+    pnlSeparacao: TPanel;
+    pnlSeparacaoInferior: TPanel;
+    procedure btnCloseClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPadrao: TfrmPadrao;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPadrao.btnCloseClick(Sender: TObject);
+begin
+  Close;
+end;
+
+end.

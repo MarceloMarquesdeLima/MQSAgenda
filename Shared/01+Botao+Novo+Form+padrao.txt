@@ -1,0 +1,7 @@
+procedure TFrm_padrao.bt_novoClick(Sender: TObject);
+begin
+//cria um nmovo registro
+Tratabotoes;
+Q_padrao.Open;
+q_padrao.Append;
+end;

@@ -1,0 +1,11 @@
+procedure TFrm_padrao.bt_AtualizarClick(Sender: TObject);
+begin
+ // atualiza o registro
+ try
+ Tratabotoes;
+ Q_padrao.Post;
+ Messagedlg('Registro atualizado com sucesso!',mtInformation,[mbOk],0);
+  Except
+  ShowMessage('Erro na atualização do registro,verifique!');
+ end;
+end;

@@ -1,0 +1,25 @@
+inherited frmAgendamento: TfrmAgendamento
+  Caption = ''
+  Font.Height = -21
+  PixelsPerInch = 96
+  TextHeight = 30
+  inherited pnlFundo: TPanel
+    ExplicitTop = 0
+    inherited lblTitulo: TLabel
+      Width = 237
+      Caption = 'CADASTRO DE AGENDAMENTO'
+      ExplicitWidth = 237
+    end
+    inherited pnlPesquisa: TPanel
+      inherited btnPesquisar: TSpeedButton
+        Cursor = crHandPoint
+      end
+      inherited edtPesquisar: TMQSEdit
+        Text = 'Pesquisar Agendamento'
+      end
+    end
+    inherited pnlSeparacao: TPanel
+      ExplicitWidth = 1002
+    end
+  end
+end

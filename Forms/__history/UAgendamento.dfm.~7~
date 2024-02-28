@@ -1,0 +1,15 @@
+inherited frmPadrao1: TfrmPadrao1
+  Caption = 'frmPadrao1'
+  Font.Height = -21
+  PixelsPerInch = 96
+  TextHeight = 30
+  inherited pnlFundo: TPanel
+    ExplicitTop = 0
+    inherited pnlSeparacao: TPanel
+      ExplicitWidth = 1002
+    end
+    inherited pnlButton: TPanel
+      ExplicitLeft = 645
+    end
+  end
+end

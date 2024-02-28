@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/01/31 06:38:14.000.888,=C:\Users\marce\OneDrive\Bkps\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/31 06:45:58.000.731,C:\projetos\Deplhi\MQS\MQSAgenda\Forms\UPrincipal.pas=C:\Users\marce\OneDrive\Bkps\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/01/31 06:45:58.000.731,C:\projetos\Deplhi\MQS\MQSAgenda\Forms\UPrincipal.dfm=C:\Users\marce\OneDrive\Bkps\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/01/31 06:46:32.000.687,C:\projetos\Deplhi\MQS\MQSAgenda\Projeto\MQSAgenda.dproj=C:\Users\marce\OneDrive\Bkps\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/02/02 04:49:26.000.019,=C:\projetos\Deplhi\MQS\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/02 04:51:37.000.060,C:\projetos\Deplhi\MQS\MQSAgenda\Projeto\Unit1.dfm=C:\projetos\Deplhi\MQS\MQSAgenda\Forms\UDMConexao.dfm</Transaction>
+    <Transaction>2024/02/02 04:51:37.000.060,C:\projetos\Deplhi\MQS\MQSAgenda\Projeto\Unit1.pas=C:\projetos\Deplhi\MQS\MQSAgenda\Forms\UDMConexao.pas</Transaction>
+    <Transaction>2024/02/02 04:53:28.000.737,C:\projetos\Deplhi\MQS\MQSAgenda\Forms\UPrincipal.pas=</Transaction>
+    <Transaction>2024/02/02 04:53:43.000.987,=C:\projetos\Deplhi\MQS\MQSAgenda\Forms\UPrincipal.pas</Transaction>
+    <Transaction>2024/02/02 05:18:09.000.955,=C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/02 05:22:38.000.364,C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.pas=C:\projetos\Delphi\MQS\MQSAgenda\Forms\ULogin.pas</Transaction>
+    <Transaction>2024/02/02 05:22:38.000.364,C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.dfm=C:\projetos\Delphi\MQS\MQSAgenda\Forms\ULogin.dfm</Transaction>
+    <Transaction>2024/02/03 09:17:10.000.377,=C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/03 09:19:44.000.046,C:\projetos\Delphi\MQS\MQSAgenda\Forms\UConfiguraServidor.dfm=C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2024/02/03 09:19:44.000.046,C:\projetos\Delphi\MQS\MQSAgenda\Forms\UConfiguraServidor.pas=C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/05 09:05:24.000.442,=C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/05 09:06:24.000.418,C:\projetos\Delphi\MQS\MQSAgenda\Projeto\UMensagem.dfm=C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2024/02/05 09:06:24.000.418,C:\projetos\Delphi\MQS\MQSAgenda\Projeto\UMensagem.pas=C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/07 06:03:28.000.407,=C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/07 06:04:15.000.516,C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.pas=C:\projetos\Delphi\MQS\MQSAgenda\Classes\UFuncoes.pas</Transaction>
+    <Transaction>2024/02/07 07:32:06.000.846,=C:\projetos\Delphi\MQS\MQSAgenda\Forms\UMensagem.pas</Transaction>
+    <Transaction>2024/02/07 07:32:42.000.862,=C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/07 07:33:15.000.103,C:\projetos\Delphi\MQS\MQSAgenda\Classes\UClasseConexao.pas=C:\projetos\Delphi\MQS\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 08:54:25.000.555,=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 08:54:44.000.915,C:\MQSAgenda\Forms\UAgendamento.pas=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 08:54:44.000.915,C:\MQSAgenda\Forms\UAgendamento.dfm=C:\MQSAgenda\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2024/02/18 10:33:53.000.996,=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 10:36:12.000.062,C:\MQSAgenda\Forms\UCadPadrao.dfm=C:\MQSAgenda\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2024/02/18 10:36:12.000.062,C:\MQSAgenda\Forms\UCadPadrao.pas=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 10:49:02.000.663,C:\MQSAgenda\Forms\UAgendamento.pas=</Transaction>
+    <Transaction>2024/02/18 12:08:47.000.378,=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 12:09:06.000.892,C:\MQSAgenda\Forms\UAgendamento.dfm=C:\MQSAgenda\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2024/02/18 12:09:06.000.892,C:\MQSAgenda\Forms\UAgendamento.pas=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 15:32:11.000.773,=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 15:32:30.000.853,=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 15:32:53.000.473,C:\MQSAgenda\Forms\UProfissional.pas=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 15:32:53.000.473,C:\MQSAgenda\Forms\UProfissional.dfm=C:\MQSAgenda\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2024/02/18 15:34:53.000.439,=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 15:35:13.000.278,C:\MQSAgenda\Forms\UUsuario.pas=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 15:35:13.000.278,C:\MQSAgenda\Forms\UUsuario.dfm=C:\MQSAgenda\Projeto\Unit1.dfm</Transaction>
+    <Transaction>2024/02/18 16:14:00.000.013,C:\MQSAgenda\Forms\UAgendamento.pas=</Transaction>
+    <Transaction>2024/02/18 16:14:26.000.326,=C:\MQSAgenda\Projeto\Unit1.pas</Transaction>
+    <Transaction>2024/02/18 16:14:38.000.716,C:\MQSAgenda\Projeto\Unit1.pas=C:\MQSAgenda\Forms\UAgendamento.pas</Transaction>
+    <Transaction>2024/02/18 16:14:38.000.716,C:\MQSAgenda\Projeto\Unit1.dfm=C:\MQSAgenda\Forms\UAgendamento.dfm</Transaction>
+    <Transaction>2024/02/18 16:17:31.000.994,C:\MQSAgenda\Forms\UUsuario.pas=</Transaction>
+    <Transaction>2024/02/18 16:17:39.000.574,C:\MQSAgenda\Forms\UProfissional.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

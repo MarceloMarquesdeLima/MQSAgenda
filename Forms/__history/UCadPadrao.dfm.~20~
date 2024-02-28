@@ -1,0 +1,174 @@
+object frmPadrao: TfrmPadrao
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'frmPadrao'
+  ClientHeight = 530
+  ClientWidth = 705
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 21
+  object pnlFundo: TPanel
+    Left = 0
+    Top = 0
+    Width = 705
+    Height = 530
+    Align = alClient
+    TabOrder = 0
+    ExplicitTop = 24
+    DesignSize = (
+      705
+      530)
+    object shPadrao: TShape
+      Left = 1
+      Top = 1
+      Width = 703
+      Height = 528
+      Align = alClient
+      ExplicitLeft = 168
+      ExplicitTop = 192
+      ExplicitWidth = 65
+      ExplicitHeight = 65
+    end
+    object lblTitulo: TLabel
+      Left = 8
+      Top = 4
+      Width = 172
+      Height = 21
+      Cursor = crHandPoint
+      Caption = 'FORMUL'#193'RIO PADR'#195'O'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Segoe UI'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object pnlButton: TPanel
+      Left = 664
+      Top = 2
+      Width = 40
+      Height = 27
+      Anchors = [akTop, akRight]
+      BevelOuter = bvNone
+      TabOrder = 0
+      object btnClose: TSpeedButton
+        Left = 8
+        Top = 1
+        Width = 23
+        Height = 22
+        Cursor = crHandPoint
+        Hint = 'Pesquisa de Agendamento'
+        Caption = 'X'
+        Flat = True
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -21
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        OnClick = btnCloseClick
+      end
+    end
+    object pnlPesquisa: TPanel
+      Left = 1
+      Top = 31
+      Width = 704
+      Height = 50
+      BevelOuter = bvNone
+      TabOrder = 1
+      object Shape2: TShape
+        Left = 2
+        Top = 4
+        Width = 698
+        Height = 46
+      end
+      object btnPesquisar: TSpeedButton
+        Left = 12
+        Top = 14
+        Width = 42
+        Height = 25
+        Flat = True
+        Glyph.Data = {
+          26040000424D2604000000000000360000002800000012000000120000000100
+          180000000000F0030000120B0000120B00000000000000000000E6E1DEE6E1DE
+          E6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1
+          DEE6E1DEE6E1DEE6E1DEB3B0AECBC7C50000E6E1DEE6E1DEE6E1DEE6E1DEE6E1
+          DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DE9B
+          99986C6C6CAFACAA0000E6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6
+          E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DE9F9D9B6C6C6C9D9B9ADED9D6
+          0000E6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DE
+          E6E1DEE6E1DEE6E1DE9E9C9B6C6C6CA19F9EE6E1DEE6E1DE0000E6E1DEE6E1DE
+          E6E1DEE6E1DEE5E0DDC1BEBCA3A09FA09E9CBBB8B6DDD8D6E6E1DEE6E1DE9C9A
+          996C6C6CA2A09FE6E1DEE6E1DEE6E1DE0000E6E1DEE6E1DEE6E1DEBAB6B46D6D
+          6D6C6C6C6C6C6C6C6C6C6C6C6C6C6C6CB1AEACA6A4A36C6C6CA3A19FE6E1DEE6
+          E1DEE6E1DEE6E1DE0000E6E1DEE6E1DEAAA7A66C6C6C7B7B7ABCB9B7D9D5D2DD
+          D8D6C5C1BF8D8C8B6C6C6C6C6C6CAEABA9E6E1DEE6E1DEE6E1DEE6E1DEE6E1DE
+          0000E6E1DEC7C3C16C6C6C92908FE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DE
+          B0AEAC6C6C6CB5B2B0E6E1DEE6E1DEE6E1DEE6E1DEE6E1DE0000E1DCD9767675
+          6F6F6FE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DE8B89896C6C
+          6CDFDBD8E6E1DEE6E1DEE6E1DEE6E1DE0000BAB7B56C6C6CA8A5A4E6E1DEE6E1
+          DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DECDC9C76C6C6CB8B5B3E6E1DEE6
+          E1DEE6E1DEE6E1DE0000A2A09F6C6C6CC6C3C0E6E1DEE6E1DEE6E1DEE6E1DEE6
+          E1DEE6E1DEE6E1DEE6E1DEE2DDDA6C6C6C9D9B9AE6E1DEE6E1DEE6E1DEE6E1DE
+          0000A5A3A26C6C6CC4C0BEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DE
+          E6E1DEDFDBD86C6C6CA19F9EE6E1DEE6E1DEE6E1DEE6E1DE0000C4C0BE6C6C6C
+          9A9897E6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEC1BDBB6C6C
+          6CC2BFBCE6E1DEE6E1DEE6E1DEE6E1DE0000E5E0DD8483826C6C6CDDD9D6E6E1
+          DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DE7979796C6C6CE5E0DDE6E1DEE6
+          E1DEE6E1DEE6E1DE0000E6E1DED7D2D06C6C6C787777D9D4D1E6E1DEE6E1DEE6
+          E1DEE6E1DEE6E1DE9492916C6C6CBCB9B7E6E1DEE6E1DEE6E1DEE6E1DEE6E1DE
+          0000E6E1DEE6E1DEC1BDBB6C6C6C6C6C6C999796BEBAB8C3C0BDA6A4A36D6D6D
+          6C6C6CABA8A7E6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DE0000E6E1DEE6E1DE
+          E6E1DED1CDCA8A89886C6C6C6C6C6C6C6C6C6C6C6C7E7D7DC2BEBCE6E1DEE6E1
+          DEE6E1DEE6E1DEE6E1DEE6E1DEE6E1DE0000E6E1DEE6E1DEE6E1DEE6E1DEE6E1
+          DEC4C0BEAAA8A6A6A4A2BDBAB8E1DCD9E6E1DEE6E1DEE6E1DEE6E1DEE6E1DEE6
+          E1DEE6E1DEE6E1DE0000}
+      end
+      object edtPesquisar: TMQSEdit
+        Left = 64
+        Top = 11
+        Width = 625
+        Height = 33
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -19
+        Font.Name = 'Segoe UI'
+        Font.Style = []
+        ParentFont = False
+        TabOrder = 0
+        Text = 'Pesquisar'
+        MudarColor = 14087422
+        CampoObrigatorio = False
+      end
+    end
+    object pnlSeparacao: TPanel
+      Left = -298
+      Top = 29
+      Width = 1002
+      Height = 1
+      Anchors = [akLeft, akTop, akRight]
+      Color = clSilver
+      ParentBackground = False
+      TabOrder = 2
+      ExplicitWidth = 810
+    end
+    object pnlSeparacaoInferior: TPanel
+      Left = -297
+      Top = 86
+      Width = 1002
+      Height = 1
+      Anchors = [akLeft, akTop, akRight]
+      Color = clSilver
+      ParentBackground = False
+      TabOrder = 3
+    end
+  end
+end

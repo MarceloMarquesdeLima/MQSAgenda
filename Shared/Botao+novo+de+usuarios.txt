@@ -1,0 +1,6 @@
+procedure TFrm_usuario.bt_novoClick(Sender: TObject);
+begin
+  inherited;
+ db_cadastro.Text:=DateTostr(now);
+ db_nome.SetFocus;
+end;

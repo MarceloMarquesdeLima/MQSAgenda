@@ -1,0 +1,45 @@
+unit UDMConexao;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, FireDAC.Stan.Intf, FireDAC.Stan.Option,
+  FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def,
+  FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys, FireDAC.VCLUI.Wait,
+  FireDAC.Phys.FBDef, FireDAC.Phys.IBBase, FireDAC.Phys.FB, Data.DB,
+  FireDAC.Comp.Client, FireDAC.Comp.UI, UClasseConexao;
+
+type
+  TDMConexao = class(TDataModule)
+    FDConnection: TFDConnection;
+    FBDriver: TFDPhysFBDriverLink;
+    FDGUIxWaitCursor: TFDGUIxWaitCursor;
+    procedure DataModuleCreate(Sender: TObject);
+    procedure DataModuleDestroy(Sender: TObject);
+  private
+    { Private declarations }
+    Conexao : Tconexao;
+  public
+    { Public declarations }
+  end;
+
+var
+  DMConexao: TDMConexao;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure TDMConexao.DataModuleCreate(Sender: TObject);
+begin
+  Conexao := Tconexao.Create( FDConnection );
+end;
+
+procedure TDMConexao.DataModuleDestroy(Sender: TObject);
+begin
+  Conexao.Destroy;
+end;
+
+end.

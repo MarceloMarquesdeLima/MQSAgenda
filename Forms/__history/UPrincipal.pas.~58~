@@ -1,0 +1,93 @@
+unit UPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Mask, Vcl.DBCtrls,
+  MQSDBEdit, MQSMaskEdit, UConfiguraServidor, Vcl.ComCtrls, Vcl.ExtCtrls,
+  Vcl.Buttons, Vcl.Imaging.pngimage;
+
+type
+  TfrmPrincipal = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    pnlFundo: TPanel;
+    Panel3: TPanel;
+    Panel5: TPanel;
+    Image2: TImage;
+    btnClose: TSpeedButton;
+    btnMinimaze: TSpeedButton;
+    Panel7: TPanel;
+    Panel8: TPanel;
+    Panel1: TPanel;
+    Panel6: TPanel;
+    Label4: TLabel;
+    Image1: TImage;
+    Panel4: TPanel;
+    Panel9: TPanel;
+    Label3: TLabel;
+    Label5: TLabel;
+    Panel13: TPanel;
+    Panel10: TPanel;
+    Panel12: TPanel;
+    Shape1: TShape;
+    btnUsuario: TSpeedButton;
+    Panel11: TPanel;
+    Shape2: TShape;
+    SpeedButton3: TSpeedButton;
+    Panel14: TPanel;
+    Shape3: TShape;
+    SpeedButton4: TSpeedButton;
+    Shape4: TShape;
+    btnAgendamento: TSpeedButton;
+    procedure btnCloseClick(Sender: TObject);
+    procedure btnMinimizarClick(Sender: TObject);
+    procedure btnAgendamentoClick(Sender: TObject);
+    procedure FormResize(Sender: TObject);
+    procedure btnUsuarioClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+uses UAgendamento, UUsuario;
+
+
+procedure TfrmPrincipal.btnAgendamentoClick(Sender: TObject);
+begin
+  frmAgendamento := TfrmAgendamento.Create(nil);
+  frmAgendamento.ShowModal;
+end;
+
+procedure TfrmPrincipal.btnCloseClick(Sender: TObject);
+begin
+  Application.Terminate;
+end;
+
+procedure TfrmPrincipal.btnMinimizarClick(Sender: TObject);
+begin
+  Application.Minimize;
+end;
+
+procedure TfrmPrincipal.btnUsuarioClick(Sender: TObject);
+begin
+  frmUsuario := TfrmUsuario.Create(nil);
+  frmUsuario.ShowModal;
+end;
+
+procedure TfrmPrincipal.FormResize(Sender: TObject);
+begin
+  pnlFundo.Top := Round((frmPrincipal.Height - pnlFundo.Height)/2);
+  pnlFundo.Left := Round((frmPrincipal.Width - pnlFundo.Width)/2);
+end;
+
+end.

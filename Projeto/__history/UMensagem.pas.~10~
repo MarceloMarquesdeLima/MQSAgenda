@@ -1,0 +1,51 @@
+unit UMensagem;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Buttons, Vcl.ExtCtrls, Vcl.StdCtrls,
+  Vcl.Imaging.pngimage;
+
+type
+  TfrmMensagem = class(TForm)
+    pnlFundoMensagem: TPanel;
+    shFundoMensagem: TShape;
+    Panel1: TPanel;
+    Label1: TLabel;
+    lblTitulo: TLabel;
+    imgMensagem: TImage;
+    lblSubTitulo: TLabel;
+    lblMensagem: TLabel;
+    pnlBtnCancelar: TPanel;
+    btnNão: TSpeedButton;
+    pnlBtnConfirmar: TPanel;
+    btnSim: TSpeedButton;
+    procedure btnNãoClick(Sender: TObject);
+    procedure btnSimClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    bRespostaMSG : Boolean;
+  end;
+
+var
+  frmMensagem: TfrmMensagem;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmMensagem.btnNãoClick(Sender: TObject);
+begin
+ bRespostaMSG := false;
+ Close;
+end;
+
+procedure TfrmMensagem.btnSimClick(Sender: TObject);
+begin
+  Close;
+end;
+
+end.

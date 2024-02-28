@@ -1,0 +1,12 @@
+procedure TFrm_padrao.bt_EditarClick(Sender: TObject);
+begin
+// abri para edição
+Tratabotoes;
+ if messagedlg('Deseja editar este registro?',mtConfirmation,[mbOk,mbNo],0)=mrOk then
+    begin
+      Q_padrao.edit;
+    end
+    else
+    Tratabotoes;
+    abort;
+end;

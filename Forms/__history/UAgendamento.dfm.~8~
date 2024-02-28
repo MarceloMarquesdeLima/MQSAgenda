@@ -1,0 +1,20 @@
+inherited frmAgendamento: TfrmAgendamento
+  Caption = ''
+  Font.Height = -21
+  PixelsPerInch = 96
+  TextHeight = 30
+  inherited pnlFundo: TPanel
+    ExplicitTop = 0
+    inherited lblTitulo: TLabel
+      Width = 185
+      Caption = 'Cadastro de Agendamento'
+      ExplicitWidth = 185
+    end
+    inherited pnlSeparacao: TPanel
+      ExplicitWidth = 1002
+    end
+    inherited pnlButton: TPanel
+      ExplicitLeft = 645
+    end
+  end
+end
